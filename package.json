@@ -1,17 +1,16 @@
 {
     "name": "apollo-mock",
     "version": "1.0.0",
-    "main": "main.ts",
+    "main": "main.js",
     "author": "Matt Terski (https://github.com/terski)",
     "license": "ISC",
     "private": false,
     "scripts": {
-        "start": "ts-node-dev main.ts"
+        "start": "nodemon main.js"
     },
     "dependencies": {
         "apollo-server": "^2.19.0",
         "graphql": "^14.0.0",
-        "ts-node-dev": "^1.0.0",
-        "typescript": "^4.0.5"
+        "nodemon": "^2.0.6"
     }
 }
