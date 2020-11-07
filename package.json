@@ -1,0 +1,17 @@
+{
+    "name": "apollo-mock",
+    "version": "1.0.0",
+    "main": "main.ts",
+    "author": "Matt Terski (https://github.com/terski)",
+    "license": "ISC",
+    "private": false,
+    "scripts": {
+        "start": "ts-node main.ts"
+    },
+    "dependencies": {
+        "apollo-server": "^2.19.0",
+        "graphql": "^15.4.0",
+        "ts-node": "^9.0.0",
+        "typescript": "^4.0.5"
+    }
+}
